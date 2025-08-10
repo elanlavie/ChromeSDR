@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>RTL-SDR Uploader</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 18px; width: 270px; }
-    button { margin: 8px 0; width: 100%; padding: 8px; }
-    #status { font-size: 0.9em; margin-top: 12px; color: #444; }
-  </style>
-</head>
-<body>
-  <h2>RTL-SDR Uploader</h2>
-  <button id="connectBtn">Connect RTL-SDR</button>
-  <button id="startBtn" disabled>Start Capture</button>
-  <button id="stopBtn" disabled>Stop Capture</button>
-  <button id="uploadBtn" disabled>Upload Data</button>
-  <div id="status">Status: Not connected</div>
-  <script src="popup.js"></script>
-</body>
+<!doctype html>
+<html>
+  <body>
+    <button id="openPage">Open SDR page</button>
+    <div id="status">Status: Use the SDR page</div>
+    <script type="module" src="popup.js"></script>
+  </body>
 </html>
